@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap" rel="stylesheet">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1150e913ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+<div class= "container">
+    <nav> 
+        <a href="" class="logo"><span>K</span>OMALI</a>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+<div id="home">
+<div class= "header-text">
+<p>Business Analyst</p>
+<h1>Hi, I'm <span>Komali</span></h1>
+    </div>
+</div>
+</div>
+</div>
+    <!-----------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="about-col-1">
+                    <img src="image.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am an aspiring Data Analyst with a solid foundation in SPSS, R, and Power BI. My passion lies in uncovering insights from data and translating them into actionable strategies. With a growing proficiency in Python, I am continuously expanding my skill set to include more advanced data analysis and visualization techniques. I am eager to contribute to data-driven projects and am committed to further honing my abilities to make an impact in the world of data analytics.</p>
+
+                        <div class ="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+            
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Tableau<br></span> Familiar with using Tableau to create basic data visualizations and dashboards.</li>
+                        <li><span>Mysql<br></span>Learning to write scripts for data analysis and automation.</li>
+                        <li><span>Python<br></span>Leaning to use SPSS for basic statistical analysis and data management</li>
+                        <li><span>SPSS<br></span>Gaining experience with MySQL for simple database queries and data handling.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>Will Update later</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024-Current<br></span> Pursuing Masters Degree in Gayatri Vidhya Parshad College</li>
+                        <li><span>2020-2023<br></span>B.Sc Computer Science from Aditya Degree College</li>
+                        
+                    </ul>
+                </div>
+            </div>
+            </div>
+    </div>
+    </div>
+    <!-------------------Services----------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Statistical Analysis</h2>
+                    <p>
+                        I can use SPSS Software, ensuring efficient Analysis management and optimal performance.
+                        Utilized SPSS Analyze opitions like Descreptive Statistics, Frequences, Chi-Square through Cross
+                        tabs, Dimension Reduction for Factor Analysis.
+                        </p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Dashboard Development</h2>
+                    <p> I can develop an interactive dashboard using Power BI, providing real-time insights.
+                        Focused on creating a clean and intuitive dashboard layout, making it easy for stakeholders to
+                        interpret data and generate reports.
+                        </p>
+                        <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Python</h2>
+                    <p> I offer data analysis services that leverage Python's powerful libraries like Pandas and NumPy.I can assist with data cleaning, basic statistical analysis, and creating simple visualizations to help uncover insights from data.<br>
+                        <a href="#">Learn more</a>
+                    </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+    <!----------------portfolio---------------->
+    <div id="Portfolio">
+        <div class="section">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images.jpeg">
+                    <div class="layer">
+                        <h3>Statistical Package for the Social Sciences</h3>
+                        <p>I completed a project analyzing factors influencing usage of social media among students community by using SPSS basic tools. The project involved data cleaning, descriptive analysis and conducting basic statistical tests like correlation and Chi-square.</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.png">
+                    <div class="layer">
+                        <h3>Power Bi</h3>
+                        <p> I have worked with Power BI basic tools to create interactive dashboards and visual reports. I am familiar with data import, simple transformations and creating visualizations such as bar charts and pie charts.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+    </div>
+<!------------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-share"></i>kotnikomali23@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7660997819</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/kotni-komali-b83876316" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/komalikotni" target="_blank"><i class="fa-brands fa-github"></i></i>
+                    </a>
+                     </div>
+                 <a href="komali resume.pdf" download class="btn btn2">Download CV</a>
+                  </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <div class="copyright">
+        <p>© 2024 Komali's Portfolio</p>
+    </div>
+</div>
+</div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+    
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby7wovvUH35D_I9hFyF9O454sV2ymyhJntE9p7i7GAW56Qrsf_hZaDTOHS9D7h7hy1_fA/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
